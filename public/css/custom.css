@@ -1,0 +1,65 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+.foundry_modal .btn{ width: 200px; max-width: 200px; }
+#myModal2 .modal-body
+{
+  height:600px;
+/*  overflow-x:auto;
+  overflow-y:auto;*/
+  height: 500px;
+  overflow-y: auto;
+  padding: 80px 48px;
+  z-index: 9999;
+} 
+ body{ overflow: auto !important;}
+  .modal{ overflow: auto !important;}
+  .list-inline > li
+  {
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+  }
+  .list-inline > li:first-child
+  {
+    padding-bottom: 10px;
+  }
+  .text-tabs .active_photo .tab-title
+  {
+    color: #5edcd0;
+  }
+
+body {  
+
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, Verdana, "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 
+p
+{
+   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, Verdana, "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+}
+
+.padding60
+{
+  padding-left:60px;
+}
+img
+{
+  overflow: hidden;
+}
+
+
+@media all and (max-width: 767px) {
+  br {
+    display: block;
+  }
